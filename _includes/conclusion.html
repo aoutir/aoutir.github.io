@@ -1,0 +1,52 @@
+<section class="bg-primary" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h1 class="section-heading text-center">Conclusion and Limitations</h1>
+                <hr class="light">
+
+                <p class="text-faded">
+                    To conclude, the performed study was very informative about the potential correlations between quotes and stock market returns and shifts.
+                    We were able to analyse Elon Musk’s quotes on a natural language level, 
+                    by extracting several features from it which were linked afterwards to the stock variations and also used to build a predictive model. 
+                </p>
+
+                <p class="text-faded">
+                    However, the obtained results were not very conclusive. There are several limitations which tend to lump the models built. 
+                    <br>
+                    The first limitation is related to the sentiment analysis. Based on the obtained scores, one could affirm that it’s not a very robust tool to use for the correlation analysis or for the prediction step. 
+                    Indeed, the prediction based on the gradient boosting method, which is the best among all the trials, has an R^2 score of only ~12%. Looking for more relevant features would perhaps have led to a better score. 
+                    We know though that stock prediction is a hard matter to deal with.
+                    The processed dataset could also be problematic. We filtered it using some keywords which were relevant to the case study. 
+                    Maybe if we would have worked with a larger part of the dataset, i.e not filtered by a lot, we would obtain better results.
+                    Overall, the study was very interesting to discover the aspects of natural language processing for finance related matters.
+                </p>
+
+
+                <hr class="light">
+                <p>
+                    This data analysis was done as a project for the course
+                    <a href="https://dlab.epfl.ch/teaching/fall2021/cs401/" style="color: antiquewhite"> Applied Data Analysis 2021 at EPFL </a>.
+                    To learn more, please visit our github repository with full analysis and details about the used datasets.
+                </p>
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <a href="https://github.com/epfl-ada/ada-2021-project-noname" style="color: white">
+                    <i class="fa fa-github fa-3x wow bounceIn"></i>
+                    <p style="color: antiquewhite">{{ site.github_username }}</p>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p>Contributors : Fatima Zahra Lissane Eddine, Hafsa Aoutir, Mahdi Ihdeme and Leo Kanervo Mikael Matikainen</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>

@@ -6,7 +6,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://aoutir.github.io/data-story/" # the base hostname & protocol for your site
 
 twitter_username:
-github_username:
+github_username: epfl-ada/ada-2021-project-noname
+
 
 # Build settings
 markdown: kramdown

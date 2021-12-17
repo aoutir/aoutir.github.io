@@ -1,0 +1,38 @@
+<section id="Predictive Models">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="section-heading">Predictive Models</h1>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div >
+                 <!--Figure 1--> 
+                <div >
+                    <p style="text-align: justify;"> 
+                        In this part of the study, we try several machine learning classification and regression methods to try to predict the stock returns/shifts of Tesla. 
+                        To maximize the performance of our models, the first thing to do was to build more features based on some common methods. Thus, in addition to the TF-IDF matrix and to the sentiment analysis outputs, we one-hot encode them. 
+                        <br>
+                        The first step was to try a basic linear regression model, which performed poorly. After that, a gradient boosting regressor was implemented using the same features and outcomes, which performed better but not good enough. 
+                        Based on the previous observation, a hyperparameter tuning was used to get the best possible combination of the number of estimators and the learning rate for the gradient boosting regressor which improved the prediction score a lot. 
+                        We also tried some classifiers in order to predict the daily stock shift (categorical value ,up or down). 
+                        <br>
+                        The used classifiers were SVM and MLPClassifier: Unfortunately, both of them performed very poorly.
+                       </p>
+
+                       <img src="img\resultModels.jpeg" width="100%">
+                       
+
+                </div>
+
+                
+        
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
