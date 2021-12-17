@@ -83,6 +83,10 @@ sup {
   width: 50%;
   padding: 5px;
 }
+.cupcake
+  {
+    text-align: center;
+  }
 .row1 {
   content: "";
   clear: both;

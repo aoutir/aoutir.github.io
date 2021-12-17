@@ -28,16 +28,40 @@
                     <h2 class="text-center">Sentiment Analysis</h2>
 
                     <p class="text-faded" >
-                        To be able to get the most out of our data we need to perform sentiment analysis 
-                    </p>
-                         <!--
-                        Here we analyse the quotations of Elon Musk, we first start by ploting the number of quotations per day 
-                        for visualization purpose.
+                        <br>
+                        To be able to get the most out of our data we need to perform sentiment analysis, 
+                        It’s a very powerful natural language processing tool that we use in our case as the main feature that relates Musk’s quotes to Tesla’s stock price. 
+                        In this study, to get an accurate sentiment analysis we will be using two pretrained models : Vader and TextBlob.
+                        <br>
+                        Vader and TextBlob mainly output a continuous value varying between -1 and 1, the first being the extreme negative sentiment and the second is the extreme positive one. 
+                        TextBlob comes with an additional feature : 
+                        Subjectivity. Before running them on the quotes, we decide on the polarity (positive or negative) based on fixed thresholds. 
+                        <br>
+                        The bellow pie charts show the results obtained when running Vader and Blob: 
                         
+                    </p>
+
+                    <table style = "width:100%;height:100%" align = "center">
+                        <tr>
+                            <td> <img src="img\sentimentVader.png" width="400px"></td>
+                            <td><img src="img\sentimentBlob.png" width="400px"></td>
+                        </tr>
+                        
+                     </table>
+                     <p class="text-faded" >
+                        To compare the performance of the two models we visualize the result of the both on the same plot:
+                        <br>
+                     </p>
+                    <div class="cupcake" align = "center">
                         <figure>
-                            <iframe src="img\quotesPerDay.html" width="100%" height="400px" ></iframe>
+                            <iframe src="img\model_comparison.html" width="750" height="400px"></iframe>
                         </figure>
-                        -->
+                    </div>
+
+                    <p class="text-faded" >
+                        <br>
+                        As we can see from the plot, the outputs of the two algorithms are pretty similar. It seems that the difference between them is just a relatively small offset. We thus decided to continue to work with the both of them using the adequate offset for each. 
+                     </p>
                         
                         
                         
